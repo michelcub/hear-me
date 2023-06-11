@@ -1,17 +1,16 @@
+import { Calendar } from "../Components/Calendar"
 import { CardAppointment } from "../Components/CardAppointment"
 
 export const Home = () => {
     return ( 
-        <section className='flex w-full h-full px-4 pt-2 border border-black'>
+        <section className='flex w-full h-full px-4 pt-2 '>
             <div className="w-[70%] h-full rounded-t-xl bg-gray">
 
             </div>
 
-            <div className="w-[30%] h-full border border-blue p-2">
-                <article className=" h-[40%] border border-black">
-                    <div>
-                        
-                    </div>
+            <div className="w-[30%] h-full p-2">
+                <article className="p-2 h-[40%]">
+                    <Calendar/>
                 </article>
 
                 <div className="p-2 mt-4 ">
