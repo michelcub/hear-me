@@ -9,7 +9,7 @@ export const Calendar = () => {
     }
 
     return (
-        <div className="grid w-full h-full grid-cols-7 p-2 border-2 shadow-2xl rounded-xl border-gray">
+        <div className="grid w-full h-full grid-cols-7 p-2 border-2 shadow-lg rounded-xl border-gray">
             <span className="flex items-center justify-center">L</span>
             <span className="flex items-center justify-center">M</span>
             <span className="flex items-center justify-center">Mie</span>

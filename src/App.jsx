@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Dashboard } from "./Dashboard/Front/View/Dashboard.jsx";
+import { Dashboard } from "./Frontend/Dashboard/Front/View/Dashboard.jsx";
 
-import {Navbar} from './Dashboard/Front/Components/Navbar'
-import { Head } from "./Dashboard/Front/Components/Head";
+import {Navbar} from './Frontend/Dashboard/Front/Components/Navbar'
+import { Head } from "./Frontend/Dashboard/Front/Components/Head";
 
 
 function App() {
