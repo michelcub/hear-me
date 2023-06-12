@@ -4,7 +4,7 @@ export const Head = () => {
     return (
         <section className="flex w-full h-16 align-center">
             <div className="flex h-full p-4  align-center w-[70%]">
-                <input className="w-full h-[2.3rem] rounded bg-gray  border-none" type='text' name="searchHead" placeholder="  Search"/>
+                <input className=" w-full h-[2.3rem] rounded bg-gray  border-none" type='text' name="searchHead" placeholder="  Search"/>
             </div>
             <div className="flex  h-full align-center w-[30%]">
                 <nav className="flex w-full h-full align-center">
