@@ -21,7 +21,7 @@ export const Navbar = () => {
                 </li>
                 
                 <li className={`px-3 text-md  ${active === 'patientsNav'? 'bg-blue-light rounded': '' }`} onClick={handleActiveMenu} id="patientsNav">
-                    <Link className="flex items-center gap-3" to="/" id="patientsNav"><i className="text-2xl bi bi-people"></i> Patients</Link>  
+                    <Link className="flex items-center gap-3" to="/patients" id="patientsNav"><i className="text-2xl bi bi-people"></i> Patients</Link>  
                   
                 </li>
                 <li className={`px-3 text-md ${active === 'calendarNav'? 'bg-blue-light rounded': '' }`} onClick={handleActiveMenu} id="calendarNav">
